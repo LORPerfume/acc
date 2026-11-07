@@ -1209,7 +1209,7 @@ function notFound() {
    المزامنة بين الأجهزة (Firebase Firestore)
    كل الأجهزة بتسجل دخول بنفس الحساب وبتشوف نفس البيانات
    ========================================================= */
-const COLS = ['parties', 'invoices', 'payments'];
+const COLS = ['parties', 'invoices', 'payments', 'items'];
 const cloud = { on: false, ready: false, user: null, fs: null, root: null, unsub: [], last: { parties: {}, invoices: {}, payments: {}, settings: '' } };
 const FB_VER = '10.12.2';
 
